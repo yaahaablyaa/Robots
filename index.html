@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">  
+    <title>Love, Death & Robots</title>
+</head>
+<body>
+    <h1>ПРОПИСАВ ЧЕЛОВЕКА В ФОРМУ - ДОБАВЬТЕ ЕГО В НЕОБХОДИМУЮ КОЛОНКУ</h1>
+    <form action="#" class="add" name="add" >
+        <input required type="text" placeholder="Имя" name="name" class="input">
+        <input required type="number" placeholder="Сколько вам лет" name="age" class="input">
+        <button class="add_btn">Добавить</button>
+    </form>
+    <main>
+        <div class="t25">
+            <h2>Люди до 25</h2>
+            <div class="box" id="box">
+            </div>  
+        </div>
+        <div class="line"></div>
+        <div class="t50">
+            <h2>Люди до 50</h2>
+            <div class="box2" id="box">
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="f50">
+            <h2>Остальные</h2>
+            <div class="box3" id="box">
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
